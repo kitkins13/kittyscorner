@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Kitty</title>
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href= "./homepage.html" class="menu">main page</a></li>
+          <li><a href= "./aboutme.html" class="menu">who is Kitty?</a></li>
+          <li><a href= "./bookreviews.html" class="menu">book reviews</a></li>
+          <li><a href= "http://www.kittylewisfantasy.net" target= _blank class="menu"> official website </a></li>
+        </ul>
+      </nav>
+      <h1> About Kitty </h1>
+    </header>
+    <main>
+      <p> Hi! I'm Kitty, a fantasy writer from the UK. I've been making up stories since I was 6, and started writing them down a few years ago. I have two pets, a 3 legged cat called Lucky and a no legged rosy boa called Ed. Don't worry - both of them are kept safely away from each other!</p>
+      <div class="pet-pic">
+        <img src= "./images/lucky.jpg" class="pet-pic">
+        <img src= "./images/ed.jpg" class="pet-pic">
+      </div>
+      <p> Besides writing, I enjoy spending time gaming, reading and watching Netflix. Some of my favourite games are Skyrim, Stray, Hollow Knight and Portal 2. I'm currently rewatching The Dragon Prince on Netflix, catching up ready for season 7 to drop later this year. </p>
+      <h4> Contact Kitty </h4>
+        <form action="./process_form.php" method="POST" id="contact-form">
+          <div class="name">
+            <label for="name"></label>
+            <input type="text" placeholder="name" name="name" id="name_input" required>
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input type="email" placeholder="e-mail" name="email" id="email_input" required>
+          </div>
+          <div class="subject">
+            <label for="subject"></label>
+            <input type="text" placeholder="subject" name= "subject" id="subject" required>
+          </div>
+          <div class="message">
+            <label for="message"></label>
+              <textarea name="message" placeholder="message" id="message_input" cols="30" rows="5" required></textarea>
+          </div>
+          <div class="newsletter">
+            <label for="newsletter">join the mailing list?</label>
+              <input type="radio" name="newsletter" id="newsletter" value="yes" required>
+              <label for="yes">yes</label>
+              <input type="radio" name="newsletter" id="newsletter" value="no">
+              <label for="no">no</label>
+          </div>
+          <div class="submit">
+            <input type="submit" value="submit" id="form_button"/>
+          </div>
+        </form>
+        <p>email direct: <a href="mailto:kitty_writer@kittymail.com"> kitty_writer@kittymail.com </a> </p>
+        <p> or send an ask on my tumblr page at the link below! </p>
+    </main>
+<footer>
+      <h6>follow me on tumblr</h6>
+      <a href= "https://www.tumblr.com/blog/kitty-is-writing" target= _blank><img src="./images/Tumblr-Logo.png" id= "tumblr-link"></a>
+    </footer>
+  </body>
+</html>
