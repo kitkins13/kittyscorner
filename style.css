@@ -10,6 +10,11 @@
     src: url('./fonts/Gabriola.ttf');
 }
 
+@font-face {
+    font-family: 'Lucida Handwriting';
+    src: url('./fonts/LHANDW.TTF');
+}
+
 p {
     color: rgb(20,20,50);
     font-family: 'Gabriola';
